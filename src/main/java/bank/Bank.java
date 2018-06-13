@@ -1,8 +1,8 @@
 package bank;
 
 import bank.account.Account;
+import bank.customer.Address;
 import bank.customer.Customer;
-import bank.customer.CustomerOperations;
 
 import java.util.*;
 
@@ -68,8 +68,35 @@ public class Bank {
     }
 
     public void createCustomer() {
-        Customer newCustomer = CustomerOperations.createCustomer();
+        System.out.println("Name:");
+        String name = InputOutputMethods.getStringInput();
+        System.out.println("Surname");
+        String surname = InputOutputMethods.getStringInput();
+        System.out.println("Street:");
+        String street = InputOutputMethods.getStringInput();
+        System.out.println("Number:");
+        String number = InputOutputMethods.getStringInput();
+        System.out.println("Postal code:");
+        String postalCode = InputOutputMethods.getStringInput();
+        System.out.println("City:");
+        String city = InputOutputMethods.getStringInput();
+        Customer newCustomer = new Customer(name, surname, new Address(street, number, postalCode, city));
         Bank.getInstance().getCustomers().put(newCustomer.getId(), newCustomer);
+    }
+
+    public void editCustomer(UUID customerId) {
+        System.out.println("Name:");
+        Bank.getInstance().getCustomers().get(customerId).setName(InputOutputMethods.getStringInput());
+        System.out.println("Surname:");
+        Bank.getInstance().getCustomers().get(customerId).setSurname(InputOutputMethods.getStringInput());
+        System.out.println("Street:");
+        Bank.getInstance().getCustomers().get(customerId).getAddress().setStreet(InputOutputMethods.getStringInput());
+        System.out.println("Number:");
+        Bank.getInstance().getCustomers().get(customerId).getAddress().setNumber(InputOutputMethods.getStringInput());
+        System.out.println("Postal code:");
+        Bank.getInstance().getCustomers().get(customerId).getAddress().setPostalCode(InputOutputMethods.getStringInput());
+        System.out.println("City:");
+        Bank.getInstance().getCustomers().get(customerId).getAddress().setCity(InputOutputMethods.getStringInput());
     }
 
     public void transfer() {

@@ -4,7 +4,7 @@ import bank.Bank;
 import bank.InputOutputMethods;
 import bank.menu.MenuMessages;
 
-public class ViewAccountMenu {
+class ViewAccountMenu {
 
     static void menu(String accountNumber) {
         final int TRANSACTIONS_HISTORY = 1;

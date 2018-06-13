@@ -6,7 +6,7 @@ import bank.menu.MenuMessages;
 
 import java.util.UUID;
 
-public class CustomerOperationsMenu {
+class CustomerOperationsMenu {
 
     static void menu() {
         final int CREATE_CUSTOMER = 1;

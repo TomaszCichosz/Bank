@@ -36,8 +36,4 @@ public class MainMenu {
             }
         }
     }
-
-    static void customerLogin() {
-
-    }
 }

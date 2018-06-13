@@ -43,21 +43,18 @@ public class InputOutputMethods {
     }
 
     public static void stringToFile(String textToWrite, String fileName) {
-
-        BufferedWriter bw = null;
+        BufferedWriter bw;
         try {
-            String outputString = textToWrite;
             File file = new File(fileName);
             if (!file.exists()) {
                 file.createNewFile();
             }
-            FileWriter fw = new FileWriter(file); // new FileWriter(file , true) - true oznacza, ze zamiast nadpisania pliku to dopisuje string
+            FileWriter fw = new FileWriter(file);
             bw = new BufferedWriter(fw);
-            bw.write(outputString);
-            if (bw != null) bw.close();
+            bw.write(textToWrite);
+            bw.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

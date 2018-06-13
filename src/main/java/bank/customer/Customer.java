@@ -28,6 +28,10 @@ public class Customer {
         this.surname = surname;
     }
 
+    public Address getAddress() {
+        return address;
+    }
+
     public UUID getId() {
         return id;
     }

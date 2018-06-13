@@ -1,7 +1,5 @@
 package bank.transactions;
 
-import bank.Bank;
-
 import java.sql.Timestamp;
 import java.util.UUID;
 

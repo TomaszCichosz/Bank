@@ -6,7 +6,7 @@ import bank.menu.MenuMessages;
 
 import java.util.UUID;
 
-public class ViewCustomerMenu {
+class ViewCustomerMenu {
 
     static void menu(UUID customerId) {
         final int CUSTOMER_INFO = 1;
@@ -28,6 +28,7 @@ public class ViewCustomerMenu {
                     System.out.println(Bank.getInstance().getCustomers().get(customerId));
                     break;
                 case EDIT_CUSTOMER:
+                    Bank.getInstance().editCustomer(customerId);
                     break;
                 case LIST_OF_ACCOUNTS:
                     Bank.getInstance().listOfCustomerAccounts(Bank.getInstance().getAllCustomerAccounts(customerId));

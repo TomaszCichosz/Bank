@@ -3,11 +3,10 @@ package bank.menu.customersubmenu;
 import bank.Bank;
 import bank.InputOutputMethods;
 import bank.menu.MenuMessages;
-import bank.transactions.Transaction;
 
 import java.util.UUID;
 
-public class CustomerTransactionsMenu {
+class CustomerTransactionsMenu {
 
     static void menu(String accountNumber) {
         final int MAKE_TRANSFER = 1;
@@ -31,7 +30,7 @@ public class CustomerTransactionsMenu {
                 case PRINT_TRANSACTION:
                     System.out.println("Transaction UUID:");
                     InputOutputMethods.stringToFile(Bank.getInstance().getAccounts().get(accountNumber).getTransactions().
-                            get(UUID.fromString(InputOutputMethods.getStringInput())).transactionInfo(),"Transaction");
+                            get(UUID.fromString(InputOutputMethods.getStringInput())).transactionInfo(), "Transaction");
                     break;
                 case EXIT_OPTION:
                     exit = true;

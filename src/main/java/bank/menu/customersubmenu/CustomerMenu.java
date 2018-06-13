@@ -22,6 +22,7 @@ public class CustomerMenu {
             decision = InputOutputMethods.getIntInput();
             switch (decision) {
                 case EDIT_YOUR_INFO:
+                    Bank.getInstance().editCustomer(customerId);
                     break;
                 case VIEW_ACCOUNTS:
                     Bank.getInstance().listOfCustomerAccounts(Bank.getInstance().getAllCustomerAccounts(customerId));

@@ -53,15 +53,15 @@ public class Account {
         return "account number: " + accountNumber + "\tbalance: " + balance;
     }
 
-    public void increaseBalance(float amount) {
+    private void increaseBalance(float amount) {
         this.balance += amount;
     }
 
-    public void decreaseBalance(float amount) {
+    private void decreaseBalance(float amount) {
         this.balance -= amount;
     }
 
-    public float getBalance() {
+    private float getBalance() {
         return balance;
     }
 

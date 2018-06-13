@@ -1,7 +1,5 @@
 package bank.customer;
 
-import java.util.Objects;
-
 public class Address {
     private String street, number, postalCode, city;
 
@@ -15,22 +13,6 @@ public class Address {
     @Override
     public String toString() {
         return "address:\nstreet: " + street + ",\nnumber: " + number + ",\npostal code: " + postalCode + ",\ncity: " + city + ".";
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Address address = (Address) o;
-        return Objects.equals(street, address.street) &&
-                Objects.equals(number, address.number) &&
-                Objects.equals(postalCode, address.postalCode) &&
-                Objects.equals(city, address.city);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(street, number, postalCode, city);
     }
 
     public void setStreet(String street) {
