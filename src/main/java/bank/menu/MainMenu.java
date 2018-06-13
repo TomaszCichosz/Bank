@@ -1,5 +1,6 @@
 package bank.menu;
 
+import bank.Constants;
 import bank.InputOutputMethods;
 import bank.menu.bankworkersubmenu.BankWorkerMenu;
 import bank.menu.customersubmenu.CustomerMenu;
@@ -13,11 +14,13 @@ public class MainMenu {
         final int LOG_AS_BANK_WORKER = 2;
         final int EXIT_OPTION = 0;
 
+        final String info = "Log as customer: 1\nLog as bank worker: 2\nExit: 0";
+
         boolean exit = false;
         int decision;
 
         while (!exit) {
-            MenuMessages.mainMenuInfo();
+            System.out.println(info);
             decision = InputOutputMethods.getIntInput();
             switch (decision) {
                 case LOG_AS_CUSTOMER:
@@ -31,7 +34,7 @@ public class MainMenu {
                     exit = true;
                     break;
                 default:
-                    MenuMessages.errorMessage();
+                    System.out.println(Constants.errorMessage);
                     break;
             }
         }

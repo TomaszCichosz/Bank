@@ -1,8 +1,8 @@
 package bank;
 
-import bank.account.Account;
-import bank.customer.Address;
-import bank.customer.Customer;
+import bank.model.Account;
+import bank.model.Address;
+import bank.model.Customer;
 
 import java.io.*;
 import java.util.*;
@@ -33,8 +33,8 @@ public class Bank {
         return accounts;
     }
 
-    public void listOfCustomerAccounts(List<Account> accounts) {
-        for (Account temp : accounts) {
+    public void printListOfCustomerAccounts(List accounts) {
+        for (Object temp : accounts) {
             System.out.println(temp);
         }
     }
@@ -86,18 +86,19 @@ public class Bank {
     }
 
     public void editCustomer(UUID customerId) {
+        Customer customer = Bank.getInstance().getCustomers().get(customerId);
         System.out.println("Name:");
-        Bank.getInstance().getCustomers().get(customerId).setName(InputOutputMethods.getStringInput());
+        customer.setName(InputOutputMethods.getStringInput());
         System.out.println("Surname:");
-        Bank.getInstance().getCustomers().get(customerId).setSurname(InputOutputMethods.getStringInput());
+        customer.setSurname(InputOutputMethods.getStringInput());
         System.out.println("Street:");
-        Bank.getInstance().getCustomers().get(customerId).getAddress().setStreet(InputOutputMethods.getStringInput());
+        customer.getAddress().setStreet(InputOutputMethods.getStringInput());
         System.out.println("Number:");
-        Bank.getInstance().getCustomers().get(customerId).getAddress().setNumber(InputOutputMethods.getStringInput());
+        customer.getAddress().setNumber(InputOutputMethods.getStringInput());
         System.out.println("Postal code:");
-        Bank.getInstance().getCustomers().get(customerId).getAddress().setPostalCode(InputOutputMethods.getStringInput());
+        customer.getAddress().setPostalCode(InputOutputMethods.getStringInput());
         System.out.println("City:");
-        Bank.getInstance().getCustomers().get(customerId).getAddress().setCity(InputOutputMethods.getStringInput());
+        customer.getAddress().setCity(InputOutputMethods.getStringInput());
     }
 
     public void transfer() {
@@ -122,7 +123,7 @@ public class Bank {
         }
     }
 
-    void serialization() {
+    boolean serialize() {
         try {
             FileOutputStream fileOutputStream = new FileOutputStream("customers.ser");
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
@@ -132,26 +133,31 @@ public class Bank {
             objectOutputStream.writeObject(accounts);
             objectOutputStream.close();
             fileOutputStream.close();
+            return true;
         } catch (IOException ioe) {
             ioe.printStackTrace();
+            return false;
         }
     }
 
-    void deserialization() {
+    boolean deserialize() {
         try {
             FileInputStream fileInputStream = new FileInputStream("customers.ser");
             ObjectInputStream objectOutputStream = new ObjectInputStream(fileInputStream);
-            customers = (HashMap) objectOutputStream.readObject();
+            customers = (Map<UUID, Customer>) objectOutputStream.readObject();
             fileInputStream = new FileInputStream("accounts.ser");
             objectOutputStream = new ObjectInputStream(fileInputStream);
-            accounts = (HashMap) objectOutputStream.readObject();
+            accounts = (Map<String, Account>) objectOutputStream.readObject();
             objectOutputStream.close();
             fileInputStream.close();
+            return true;
         } catch (IOException ioe) {
             ioe.printStackTrace();
+            return false;
         } catch (ClassNotFoundException c) {
             System.out.println("Class not found");
             c.printStackTrace();
+            return false;
         }
     }
 }

@@ -1,8 +1,8 @@
 package bank.menu.bankworkersubmenu;
 
 import bank.Bank;
+import bank.Constants;
 import bank.InputOutputMethods;
-import bank.menu.MenuMessages;
 
 public class BankWorkerMenu {
 
@@ -12,11 +12,13 @@ public class BankWorkerMenu {
         final int CUSTOMER_OPERATIONS = 3;
         final int EXIT_OPTION = 0;
 
+        final String info = "List of customers: 1\nList of accounts: 2\nCustomer operations: 3\nExit: 0";
+
         boolean exit = false;
         int decision;
 
         while (!exit) {
-            MenuMessages.bankWorkerMenuInfo();
+            System.out.println(info);
             decision = InputOutputMethods.getIntInput();
             switch (decision) {
                 case LIST_OF_CUSTOMERS:
@@ -32,7 +34,7 @@ public class BankWorkerMenu {
                     exit = true;
                     break;
                 default:
-                    MenuMessages.errorMessage();
+                    System.out.println(Constants.errorMessage);
                     break;
             }
         }

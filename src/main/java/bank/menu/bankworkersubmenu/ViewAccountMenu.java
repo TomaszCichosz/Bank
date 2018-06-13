@@ -1,8 +1,8 @@
 package bank.menu.bankworkersubmenu;
 
 import bank.Bank;
+import bank.Constants;
 import bank.InputOutputMethods;
-import bank.menu.MenuMessages;
 
 class ViewAccountMenu {
 
@@ -12,11 +12,13 @@ class ViewAccountMenu {
         final int MAKE_PAYOUT = 3;
         final int EXIT_OPTION = 0;
 
+        final String info = "Transactions history: 1\nMake deposit: 2\nMake payout: 3\nExit: 0";
+
         boolean exit = false;
         int decision;
 
         while (!exit) {
-            MenuMessages.viewAccountMenuInfo();
+            System.out.println(info);
             decision = InputOutputMethods.getIntInput();
             switch (decision) {
                 case TRANSACTIONS_HISTORY:
@@ -34,7 +36,7 @@ class ViewAccountMenu {
                     exit = true;
                     break;
                 default:
-                    MenuMessages.errorMessage();
+                    System.out.println(Constants.errorMessage);
                     break;
             }
         }

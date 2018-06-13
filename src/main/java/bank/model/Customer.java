@@ -1,4 +1,6 @@
-package bank.customer;
+package bank.model;
+
+import bank.model.Address;
 
 import java.io.Serializable;
 import java.util.UUID;

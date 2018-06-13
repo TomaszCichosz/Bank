@@ -1,8 +1,8 @@
 package bank.menu.customersubmenu;
 
 import bank.Bank;
+import bank.Constants;
 import bank.InputOutputMethods;
-import bank.menu.MenuMessages;
 
 import java.util.UUID;
 
@@ -14,11 +14,13 @@ class CustomerTransactionsMenu {
         final int PRINT_TRANSACTION = 3;
         final int EXIT_OPTION = 0;
 
+        final String info = "Make transfer: 1\nTransaction history: 2\nPrint transaction: 3\nExit: 0";
+
         boolean exit = false;
         int decision;
 
         while (!exit) {
-            MenuMessages.customerTransactionsMenuInfo();
+            System.out.println(info);
             decision = InputOutputMethods.getIntInput();
             switch (decision) {
                 case MAKE_TRANSFER:
@@ -36,7 +38,7 @@ class CustomerTransactionsMenu {
                     exit = true;
                     break;
                 default:
-                    MenuMessages.errorMessage();
+                    System.out.println(Constants.errorMessage);
                     break;
             }
         }

@@ -1,4 +1,4 @@
-package bank.customer;
+package bank.model;
 
 import java.io.Serializable;
 

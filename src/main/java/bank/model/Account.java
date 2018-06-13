@@ -1,10 +1,10 @@
-package bank.account;
+package bank.model;
 
 import bank.Bank;
-import bank.transactions.DepositTransaction;
-import bank.transactions.PayoutTransaction;
-import bank.transactions.Transaction;
-import bank.transactions.TransferTransaction;
+import bank.model.transactions.DepositTransaction;
+import bank.model.transactions.PayoutTransaction;
+import bank.model.transactions.Transaction;
+import bank.model.transactions.TransferTransaction;
 
 import java.io.Serializable;
 import java.util.*;

@@ -1,8 +1,8 @@
 package bank.menu.bankworkersubmenu;
 
 import bank.Bank;
+import bank.Constants;
 import bank.InputOutputMethods;
-import bank.menu.MenuMessages;
 
 import java.util.UUID;
 
@@ -14,11 +14,13 @@ class CustomerOperationsMenu {
         final int VIEW_CUSTOMER = 3;
         final int EXIT_OPTION = 0;
 
+        final String info = "Create customer: 1\nRemove customer: 2\nView customer: 3\nExit: 0";
+
         boolean exit = false;
         int decision;
 
         while (!exit) {
-            MenuMessages.customerOperationsMenuInfo();
+            System.out.println(info);
             decision = InputOutputMethods.getIntInput();
             switch (decision) {
                 case CREATE_CUSTOMER:
@@ -35,7 +37,7 @@ class CustomerOperationsMenu {
                     exit = true;
                     break;
                 default:
-                    MenuMessages.errorMessage();
+                    System.out.println(Constants.errorMessage);
                     break;
             }
         }

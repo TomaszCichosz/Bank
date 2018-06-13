@@ -1,4 +1,4 @@
-package bank.transactions;
+package bank.model.transactions;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
