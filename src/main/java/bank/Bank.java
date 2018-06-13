@@ -127,6 +127,9 @@ public class Bank {
             FileOutputStream fileOutputStream = new FileOutputStream("customers.ser");
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
             objectOutputStream.writeObject(customers);
+            fileOutputStream = new FileOutputStream("accounts.ser");
+            objectOutputStream = new ObjectOutputStream(fileOutputStream);
+            objectOutputStream.writeObject(accounts);
             objectOutputStream.close();
             fileOutputStream.close();
         } catch (IOException ioe) {
@@ -139,6 +142,9 @@ public class Bank {
             FileInputStream fileInputStream = new FileInputStream("customers.ser");
             ObjectInputStream objectOutputStream = new ObjectInputStream(fileInputStream);
             customers = (HashMap) objectOutputStream.readObject();
+            fileInputStream = new FileInputStream("accounts.ser");
+            objectOutputStream = new ObjectInputStream(fileInputStream);
+            accounts = (HashMap) objectOutputStream.readObject();
             objectOutputStream.close();
             fileInputStream.close();
         } catch (IOException ioe) {
