@@ -4,6 +4,7 @@ import bank.account.Account;
 import bank.customer.Address;
 import bank.customer.Customer;
 
+import java.io.*;
 import java.util.*;
 
 public class Bank {
@@ -118,6 +119,33 @@ public class Bank {
     public void listOfAccounts() {
         for (Map.Entry<String, Account> temp : Bank.getInstance().getAccounts().entrySet()) {
             System.out.println("Customer id: " + temp.getValue().getCustomerId() + "\t" + temp.getValue());
+        }
+    }
+
+    void serialization() {
+        try {
+            FileOutputStream fileOutputStream = new FileOutputStream("customers.ser");
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+            objectOutputStream.writeObject(customers);
+            objectOutputStream.close();
+            fileOutputStream.close();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    void deserialization() {
+        try {
+            FileInputStream fileInputStream = new FileInputStream("customers.ser");
+            ObjectInputStream objectOutputStream = new ObjectInputStream(fileInputStream);
+            customers = (HashMap) objectOutputStream.readObject();
+            objectOutputStream.close();
+            fileInputStream.close();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        } catch (ClassNotFoundException c) {
+            System.out.println("Class not found");
+            c.printStackTrace();
         }
     }
 }

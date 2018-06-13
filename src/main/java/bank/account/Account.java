@@ -6,9 +6,10 @@ import bank.transactions.PayoutTransaction;
 import bank.transactions.Transaction;
 import bank.transactions.TransferTransaction;
 
+import java.io.Serializable;
 import java.util.*;
 
-public class Account {
+public class Account implements Serializable {
     private UUID customerId;
     private String accountNumber;
     private float balance;

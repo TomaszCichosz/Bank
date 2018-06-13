@@ -1,9 +1,10 @@
 package bank.transactions;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.UUID;
 
-public abstract class Transaction {
+public abstract class Transaction implements Serializable {
     TransactionTypes type;
     float value;
     Timestamp timestamp;

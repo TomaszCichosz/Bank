@@ -1,8 +1,9 @@
 package bank.customer;
 
+import java.io.Serializable;
 import java.util.UUID;
 
-public class Customer {
+public class Customer implements Serializable {
     private UUID id;
     private String name;
     private String surname;

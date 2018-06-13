@@ -4,18 +4,26 @@
     <list default="true" id="3a5e17ae-29d4-4c83-9d62-c3af719e96a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bank/InputOutputMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/InputOutputMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bank/BankApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/BankApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bank/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/account/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bank/customer/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/customer/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bank/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bank/customer/CustomerOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bank/menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/menu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/CustomerOperationsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/CustomerOperationsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/ViewAccountMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/ViewAccountMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/ViewCustomerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/ViewCustomerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bank/menu/customersubmenu/CustomerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/menu/customersubmenu/CustomerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bank/menu/customersubmenu/CustomerTransactionsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/menu/customersubmenu/CustomerTransactionsMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bank/transactions/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/transactions/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/Bank$BankSingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/Bank$BankSingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/BankApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/BankApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/InputOutputMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/InputOutputMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/account/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/customer/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/customer/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/customer/CustomerOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/menu/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/menu/bankworkersubmenu/CustomerOperationsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/menu/bankworkersubmenu/CustomerOperationsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/menu/bankworkersubmenu/ViewAccountMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/menu/bankworkersubmenu/ViewAccountMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/menu/bankworkersubmenu/ViewCustomerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/menu/bankworkersubmenu/ViewCustomerMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/menu/customersubmenu/CustomerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/menu/customersubmenu/CustomerMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/menu/customersubmenu/CustomerTransactionsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/menu/customersubmenu/CustomerTransactionsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bank/transactions/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bank/transactions/Transaction.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bank/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+            <state relative-caret-position="402">
+              <caret line="140" column="66" lean-forward="true" selection-start-line="140" selection-start-column="66" selection-end-line="140" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,23 +48,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerTransactionsMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bank/menu/customersubmenu/CustomerTransactionsMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BankApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bank/customer/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bank/customer/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bank/account/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bank/transactions/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bank/transactions/TransferTransaction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,33 +134,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/ViewAccountMenu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
-              <caret line="26" column="116" lean-forward="true" selection-start-line="26" selection-start-column="116" selection-end-line="26" selection-end-column="116" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bank/transactions/Transaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayoutTransaction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bank/transactions/PayoutTransaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="26" column="116" selection-start-line="26" selection-start-column="116" selection-end-line="26" selection-end-column="116" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,15 +150,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionTypes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bank/transactions/TransactionTypes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -181,27 +191,27 @@
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/CustomerOperationsMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/BankWorkerMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/CustomerMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bank/BankApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/customer/CustomerOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/account/AccountOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/BankWorkerMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/transactions/TransactionTypes.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/MenuMessages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bank/transactions/Transaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/transactions/PayoutTransaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/transactions/DepositTransaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/transactions/TransferTransaction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bank/customer/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bank/customer/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/customersubmenu/CustomerMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bank/account/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/CustomerOperationsMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/ViewAccountMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/ViewCustomerMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/customersubmenu/CustomerTransactionsMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/menu/MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bank/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/InputOutputMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bank/BankApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bank/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bank/account/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bank/customer/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bank/customer/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bank/transactions/Transaction.java" />
       </list>
     </option>
   </component>
@@ -214,7 +224,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1185" />
     <option name="height" value="860" />
   </component>
@@ -421,16 +431,15 @@
       <workItem from="1528793256654" duration="9574000" />
       <workItem from="1528816680626" duration="13005000" />
       <workItem from="1528835085121" duration="914000" />
-      <workItem from="1528879550336" duration="5911000" />
+      <workItem from="1528879550336" duration="8283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41346000" />
+    <option name="totallyTimeSpent" value="43718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -771,36 +780,6 @@
     <entry file="file://$PROJECT_DIR$/Transaction">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/account/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/customer/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/customer/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/BankWorkerMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -868,18 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/transactions/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bank/transactions/TransactionTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -897,7 +864,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bank/transactions/TransferTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -937,27 +904,68 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bank/menu/bankworkersubmenu/ViewAccountMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
-          <caret line="26" column="116" lean-forward="true" selection-start-line="26" selection-start-column="116" selection-end-line="26" selection-end-column="116" />
+          <caret line="26" column="116" selection-start-line="26" selection-start-column="116" selection-end-line="26" selection-end-column="116" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/Bank.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bank/account/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+        <state relative-caret-position="51">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bank/customer/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bank/transactions/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bank/customer/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bank/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="140" column="66" lean-forward="true" selection-start-line="140" selection-start-column="66" selection-end-line="140" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
