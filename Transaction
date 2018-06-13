@@ -1,0 +1,10 @@
+Transaction type:
+TRANSFER
+Customer:
+customer id: 2bc63f7a-5d69-4395-8cab-9c3d262e8a70	name: Tomasz	surname: Cichosz
+From account:
+2
+Amount:
+50.0
+To account:
+2bc63f7a-5d69-4395-8cab-9c3d262e8a70
